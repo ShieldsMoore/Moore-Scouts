@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: c7208274e421c4987b3d5fe840699431
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - main: {instanceID: 0}
+  - cave: {instanceID: 0}
+  - thePlayer: {fileID: 114904087934630260, guid: f9dc5191015174c8f930ba06f2855f19,
+      type: 2}
+  - DieBurst: {instanceID: 0}
+  - heart1: {instanceID: 0}
+  - heart2: {instanceID: 0}
+  - heart3: {instanceID: 0}
+  - heartFull: {instanceID: 0}
+  - heartHalf: {instanceID: 0}
+  - heartEmpty: {instanceID: 0}
+  - livesText: {instanceID: 0}
+  - gameOverScreen: {instanceID: 0}
+  - gemText: {instanceID: 0}
+  - explodeSound: {instanceID: 0}
+  - hurtSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
