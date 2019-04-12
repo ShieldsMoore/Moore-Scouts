@@ -17186,112 +17186,19 @@ Prefab:
       propertyPath: jumpSound
       value: 
       objectReference: {fileID: 1005138997}
-    - target: {fileID: 1220633840072188, guid: 47b6399eb7f44486489dad087bad5f52, type: 2}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 212449554436527802, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: knockBackForce
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: lowJumpMultiplier
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: fallMultiplier
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 50983680958359624, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: jumpSpeed
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: moveSpeed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: jumpgracetime
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4836816412083566, guid: 47b6399eb7f44486489dad087bad5f52, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: moveR
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: invincibilityLength
-      value: 0.25
-      objectReference: {fileID: 0}
     - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
         type: 2}
       propertyPath: cv
       value: 
       objectReference: {fileID: 1873226780}
-    - target: {fileID: 4074770997177134, guid: 47b6399eb7f44486489dad087bad5f52, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 61641063319161244, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: -0.15114975
-      objectReference: {fileID: 0}
-    - target: {fileID: 61641063319161244, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 0.4413147
-      objectReference: {fileID: 0}
-    - target: {fileID: 61641063319161244, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: m_Offset.x
-      value: -0.1677041
-      objectReference: {fileID: 0}
-    - target: {fileID: 61641063319161244, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 1.2507715
-      objectReference: {fileID: 0}
     - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
         type: 2}
       propertyPath: Ready
       value: 
       objectReference: {fileID: 1937184879}
-    - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: jumpgrace
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 70752249780643408, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: -0.17015839
-      objectReference: {fileID: 0}
-    - target: {fileID: 70752249780643408, guid: 47b6399eb7f44486489dad087bad5f52,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 2.546133
+    - target: {fileID: 1220633840072188, guid: 47b6399eb7f44486489dad087bad5f52, type: 2}
+      propertyPath: m_Name
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47b6399eb7f44486489dad087bad5f52, type: 2}
