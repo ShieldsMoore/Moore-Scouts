@@ -17819,6 +17819,8 @@ MonoBehaviour:
   pc: {fileID: 887260313}
   rb2D: {fileID: 887260312}
   myanim: {fileID: 2057944811}
+  Main: 
+  Next: 
 --- !u!61 &434531322
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28430,7 +28432,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1873226779}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.450548, y: -10.8875, z: -10}
+  m_LocalPosition: {x: 18.448246, y: -11.367499, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 950068881}
@@ -29433,7 +29435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2097401913
 MonoBehaviour:
   m_ObjectHideFlags: 0
