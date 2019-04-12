@@ -141,7 +141,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1245374886967190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.21, y: -1.361, z: 0}
+  m_LocalPosition: {x: 0.039, y: -1.361, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4836816412083566}
@@ -167,8 +167,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1220633840072188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.0061035, y: -10.799, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 3.5, y: -174.43, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: -1.4343}
   m_Children:
   - {fileID: 4046538553281418}
   - {fileID: 4282098018628524}
@@ -205,7 +205,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 1
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 7218b81d426a747909ac67e270e55657, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -223,7 +223,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.1677041, y: -0.15114975}
+  m_Offset: {x: -0.17721772, y: -0.056013107}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -234,7 +234,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2507715, y: 0.4413147}
+  m_Size: {x: 0.9146223, y: 0.2510414}
   m_EdgeRadius: 0
 --- !u!70 &70752249780643408
 CapsuleCollider2D:
@@ -248,8 +248,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.014493704, y: -0.17015839}
-  m_Size: {x: 0.815063, y: 2.546133}
+  m_Offset: {x: 0.014493704, y: -0.17410183}
+  m_Size: {x: 0.815063, y: 2.0965595}
   m_Direction: 0
 --- !u!95 &95551006946164708
 Animator:
@@ -294,9 +294,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 8
-  jumpSpeed: 16
-  fallMultiplier: 5
-  lowJumpMultiplier: 2
+  jumpSpeed: 15
+  fallMultiplier: 2.5
+  lowJumpMultiplier: 5
   speed: 0
   groundLayer:
     serializedVersion: 2
@@ -307,10 +307,10 @@ MonoBehaviour:
   respawnPosition: {x: 0, y: 0, z: 0}
   theLevelManager: {fileID: 0}
   stompBox: {fileID: 1245374886967190}
-  knockBackForce: 0
+  knockBackForce: 5
   knockBackLength: 0.25
   knockBackCounter: 0
-  invincibilityLength: 0.25
+  invincibilityLength: 1
   invincibilityCounter: 0
   jumpSound: {fileID: 0}
   bulletSpeed: 15
@@ -318,15 +318,6 @@ MonoBehaviour:
     type: 2}
   bulletSpawn: {fileID: 4916835326586926}
   jumpCount: 0
-  jumpgrace: 0.2
-  jumpgracetime: 0.2
-  moveR: 1
-  cv: {fileID: 0}
-  canShoot: 0
-  canMove: 0
-  Ready: {fileID: 0}
-  b: {fileID: 0}
-  block: 0
 --- !u!212 &212449554436527802
 SpriteRenderer:
   m_ObjectHideFlags: 1
