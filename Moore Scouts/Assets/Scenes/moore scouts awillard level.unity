@@ -19312,8 +19312,8 @@ MonoBehaviour:
   pc: {fileID: 887260313}
   rb2D: {fileID: 887260312}
   myanim: {fileID: 2057944811}
-  Main: 
-  Next: 
+  Main: StartScreen
+  Next: StartScreen
 --- !u!61 &434531322
 BoxCollider2D:
   m_ObjectHideFlags: 0
