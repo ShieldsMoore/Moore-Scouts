@@ -63,6 +63,13 @@ public class MainMenu : MonoBehaviour {
 
     }
 
+    public void Level6()
+    {
+        PlayerPrefs.SetInt("Scene", 7);
+        SceneManager.LoadScene(firstlevel);
+
+    }
+
     public void QuitGame()
     {
         Application.Quit();

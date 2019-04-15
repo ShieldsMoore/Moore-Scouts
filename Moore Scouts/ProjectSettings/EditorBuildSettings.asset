@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_Hunt.unity
     guid: b08b4e911a10d0749920d3339a9c7239
+  - enabled: 1
+    path: Assets/Scenes/moore scouts awillard level.unity
+    guid: c3b3fc7f8086fab4f99d42ed6ad85076
   m_configObjects: {}
