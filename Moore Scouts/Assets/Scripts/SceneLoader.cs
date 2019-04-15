@@ -15,6 +15,7 @@ public class SceneLoader : MonoBehaviour {
     // Updates once per frame
     void Update() {
 
+        scene = PlayerPrefs.GetInt("Scene");
         // If the player has pressed the space bar and a new scene is not loading yet...
         if (loadScene == false) {
 

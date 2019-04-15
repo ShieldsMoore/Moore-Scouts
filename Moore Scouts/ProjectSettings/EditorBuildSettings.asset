@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Loading.unity
     guid: 3d40074318ebef34da8062bccab554e9
   - enabled: 1
-    path: Assets/Scenes/Test Scene.unity
-    guid: 5a74089ecd464584cbd755e3b021b83c
+    path: Assets/Scenes/crossthegap.unity
+    guid: 8f72762c9dab340aea66081c630dc96d
+  - enabled: 1
+    path: Assets/Scenes/Bridge_JenniferTran.unity
+    guid: 98912b99b499d764296aabb86c2a82c0
+  - enabled: 1
+    path: Assets/Scenes/Level_Hunt.unity
+    guid: b08b4e911a10d0749920d3339a9c7239
   m_configObjects: {}

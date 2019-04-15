@@ -258,7 +258,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator ReadySet()
     {
         Ready.text = "Get Ready";
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         Ready.text = "GO!!";
         canMove = true;
     }
