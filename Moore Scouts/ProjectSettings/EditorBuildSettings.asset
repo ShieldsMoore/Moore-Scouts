@@ -23,4 +23,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/moore scouts awillard level.unity
     guid: c3b3fc7f8086fab4f99d42ed6ad85076
+  - enabled: 1
+    path: Assets/Scenes/Elevatorlevel.unity
+    guid: 7cb3688b6f216fb489f4ed961f89e311
+  - enabled: 1
+    path: Assets/Scenes/JustOutOfReach.unity
+    guid: 310c72344362f4c8391327df6556468d
+  - enabled: 1
+    path: Assets/Scenes/Leap of Faith.unity
+    guid: a5e1ffc8b1b3f5b4f926314405120dc6
+  - enabled: 1
+    path: Assets/Scenes/The Ground Beneath Her Feet.unity
+    guid: 9e56fd84cbda8a74c8b26ff1687156bf
+  - enabled: 1
+    path: Assets/Scenes/Three easy pieces.unity
+    guid: 4b58b028168fcda4ca805b677dba6d9e
   m_configObjects: {}
