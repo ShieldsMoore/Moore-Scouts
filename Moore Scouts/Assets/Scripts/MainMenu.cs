@@ -109,4 +109,9 @@ public class MainMenu : MonoBehaviour {
     {
         Application.Quit();
     }
+
+    public void Visit()
+    {
+        Application.OpenURL("https://moore.edu/");
+    }
 }
