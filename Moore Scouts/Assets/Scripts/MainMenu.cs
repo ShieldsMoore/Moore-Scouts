@@ -70,6 +70,41 @@ public class MainMenu : MonoBehaviour {
 
     }
 
+    public void Level7()
+    {
+        PlayerPrefs.SetInt("Scene", 8);
+        SceneManager.LoadScene(firstlevel);
+
+    }
+
+    public void Level8()
+    {
+        PlayerPrefs.SetInt("Scene", 9);
+        SceneManager.LoadScene(firstlevel);
+
+    }
+
+    public void Level9()
+    {
+        PlayerPrefs.SetInt("Scene", 10);
+        SceneManager.LoadScene(firstlevel);
+
+    }
+
+    public void Level10()
+    {
+        PlayerPrefs.SetInt("Scene", 11);
+        SceneManager.LoadScene(firstlevel);
+
+    }
+
+    public void Level11()
+    {
+        PlayerPrefs.SetInt("Scene", 12);
+        SceneManager.LoadScene(firstlevel);
+
+    }
+
     public void QuitGame()
     {
         Application.Quit();
