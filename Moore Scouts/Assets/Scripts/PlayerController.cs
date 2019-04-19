@@ -54,6 +54,8 @@ public class PlayerController : MonoBehaviour
     public Button b;
     public bool block;
 
+    public bool accel;
+
 
 
     // Use this for initialization
@@ -97,6 +99,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(accel == true)
+        {
+            transform.Translate(Input.acceleration.x, 0, 0);
+        }
+        
         jumpgrace -= Time.deltaTime;
 
         Vector2 position = new Vector2(raycaster.position.x, raycaster.position.y);
@@ -157,11 +164,11 @@ public class PlayerController : MonoBehaviour
              }
 
 
-            if (moveR == true)
+            if (moveR == true  && accel == false)
             {
                 myRB.velocity = new Vector2(moveSpeed, myRB.velocity.y);
             }
-            if (moveR == false)
+            if (moveR == false && accel == false)
             {
                 myRB.velocity = new Vector2(-moveSpeed, myRB.velocity.y);
             }
@@ -251,7 +258,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator ReadySet()
     {
         Ready.text = "Get Ready";
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         Ready.text = "GO!!";
         canMove = true;
     }
