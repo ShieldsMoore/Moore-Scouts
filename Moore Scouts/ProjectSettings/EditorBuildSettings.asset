@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Movement Amplified.unity
     guid: 4e381ab99a142064981ab2de4e52596b
+  - enabled: 1
+    path: Assets/Scenes/ThereAndBackAgain.unity
+    guid: 825258452f2e827438d7455830329645
   m_configObjects: {}
