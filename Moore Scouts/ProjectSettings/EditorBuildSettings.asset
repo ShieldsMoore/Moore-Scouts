@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_Hunt.unity
     guid: b08b4e911a10d0749920d3339a9c7239
   - enabled: 1
-    path: Assets/Scenes/moore scouts awillard level.unity
+    path: Assets/Scenes/So Far.unity
     guid: c3b3fc7f8086fab4f99d42ed6ad85076
   - enabled: 1
     path: Assets/Scenes/Elevatorlevel.unity
@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Three easy pieces.unity
     guid: 4b58b028168fcda4ca805b677dba6d9e
+  - enabled: 1
+    path: Assets/Scenes/Movement Amplified.unity
+    guid: 4e381ab99a142064981ab2de4e52596b
   m_configObjects: {}
