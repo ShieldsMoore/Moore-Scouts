@@ -14081,7 +14081,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 704699001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.641449, y: -41.287502, z: -10}
+  m_LocalPosition: {x: 16.6525, y: -41.287502, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -14740,6 +14740,11 @@ Prefab:
         type: 2}
       propertyPath: jumpgrace
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
+        type: 2}
+      propertyPath: accel
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47b6399eb7f44486489dad087bad5f52, type: 2}
@@ -19028,7 +19033,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1873226779}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.641449, y: -41.287502, z: -10}
+  m_LocalPosition: {x: 16.6525, y: -41.287502, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 950068881}
@@ -19237,7 +19242,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11, y: -77}
+  m_AnchoredPosition: {x: -11, y: -57}
   m_SizeDelta: {x: 276.82, y: 179.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1937184879
@@ -19272,9 +19277,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Level 1-1
+  m_Text: 'Level 7
 
-    Hello World'
+    There And Back Again'
 --- !u!222 &1937184880
 CanvasRenderer:
   m_ObjectHideFlags: 0
