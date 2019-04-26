@@ -762,13 +762,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1405426468713454, guid: 8aac6b317d6712b44bdbc35063386bb5, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114452801466512760, guid: 8aac6b317d6712b44bdbc35063386bb5,
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 029acc622e975454faf3fd0a985e09ca,
+      objectReference: {fileID: 21300000, guid: 833eaf82f497cdb4ebc884d4a0158e82,
         type: 3}
     - target: {fileID: 224580893852064158, guid: 8aac6b317d6712b44bdbc35063386bb5,
         type: 2}
@@ -783,7 +783,7 @@ Prefab:
     - target: {fileID: 224580893852064158, guid: 8aac6b317d6712b44bdbc35063386bb5,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 222
+      value: 214
       objectReference: {fileID: 0}
     - target: {fileID: 224389083273462634, guid: 8aac6b317d6712b44bdbc35063386bb5,
         type: 2}
@@ -22002,7 +22002,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Level 5
+  m_Text: 'Level 3
 
     Hunt'
 --- !u!222 &1937184880
