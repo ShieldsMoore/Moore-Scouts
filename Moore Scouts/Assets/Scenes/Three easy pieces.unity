@@ -16394,6 +16394,32 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114452801466512760, guid: 8aac6b317d6712b44bdbc35063386bb5,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1d26909ee5e906c4e95cd8519986f6bc,
+        type: 3}
+    - target: {fileID: 224580893852064158, guid: 8aac6b317d6712b44bdbc35063386bb5,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 1024
+      objectReference: {fileID: 0}
+    - target: {fileID: 224580893852064158, guid: 8aac6b317d6712b44bdbc35063386bb5,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 1024
+      objectReference: {fileID: 0}
+    - target: {fileID: 224580893852064158, guid: 8aac6b317d6712b44bdbc35063386bb5,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 235
+      objectReference: {fileID: 0}
+    - target: {fileID: 224580893852064158, guid: 8aac6b317d6712b44bdbc35063386bb5,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -22
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8aac6b317d6712b44bdbc35063386bb5, type: 2}
   m_IsPrefabAsset: 0
@@ -16539,7 +16565,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 704699001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.447554, y: -9.6865, z: -10}
+  m_LocalPosition: {x: 18.444254, y: -9.6865, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1936528979}
@@ -16943,6 +16969,11 @@ Prefab:
       propertyPath: m_Size.y
       value: 2.546133
       objectReference: {fileID: 0}
+    - target: {fileID: 114159186734110068, guid: 47b6399eb7f44486489dad087bad5f52,
+        type: 2}
+      propertyPath: accel
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47b6399eb7f44486489dad087bad5f52, type: 2}
   m_IsPrefabAsset: 0
@@ -16999,7 +17030,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &941973552
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19373,7 +19404,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1873226779}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.447554, y: -9.6865, z: -10}
+  m_LocalPosition: {x: 18.444254, y: -9.6865, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 950068881}
@@ -19493,7 +19524,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2114253273
-  m_SortingLayer: -1
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de4a9509f6c954388863d07e66a3e670, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -19573,9 +19604,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Level 1-1
+  m_Text: 'Level 9-9
 
-    Hello World'
+    Three Easy Pieces'
 --- !u!222 &1937184880
 CanvasRenderer:
   m_ObjectHideFlags: 0
